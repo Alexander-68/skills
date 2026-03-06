@@ -1,0 +1,4 @@
+interface:
+  display_name: "HL7 + DICOM Standards Verifier"
+  short_description: "Verify HL7 v2.3 and DICOM standards with citations."
+  default_prompt: "Use this skill to verify requirements, fields, message structures, data elements, transfer syntax rules, and network exchange behavior against HL7 v2.3 and DICOM standards PDFs. Cite the exact document and section/page when possible."
