@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Language Spec and Stdlib"
+  short_description: "Latest Go spec and stdlib reference lookup."
+  default_prompt: "Use $go to answer questions by citing the latest Go language specification and selected standard library package references."
