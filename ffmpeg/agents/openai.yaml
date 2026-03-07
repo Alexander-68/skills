@@ -1,0 +1,4 @@
+interface:
+  display_name: "FFmpeg"
+  short_description: "FFmpeg and FFprobe reference lookup."
+  default_prompt: "Use $ffmpeg to inspect media, build ffmpeg commands, or verify encoding, filtering, streaming, and hardware acceleration options."
