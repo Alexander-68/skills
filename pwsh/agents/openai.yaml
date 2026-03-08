@@ -1,0 +1,4 @@
+interface:
+  display_name: "PowerShell"
+  short_description: "Cross-platform PowerShell script guidance."
+  default_prompt: "Use $pwsh to write or review PowerShell scripts that run on both Windows and Linux with pwsh 7.5.4+."
