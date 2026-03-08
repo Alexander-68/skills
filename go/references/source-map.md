@@ -16,9 +16,13 @@ Use this map to pick the smallest set of PDFs needed for a question.
 
 - `archive/tar`: `tar package - archive_tar - Go Packages.pdf`
 - `archive/zip`: `zip package - archive_zip - Go Packages.pdf`
+- `argon2`: `argon2 package Go Packages.pdf`
 - `crypto`: `crypto package - crypto - Go Packages.pdf`
 - `crypto/cipher`: `cipher package - crypto_cipher - Go Packages.pdf`
+- `crypto/rsa`: `rsa package - crypto_rsa - Go Packages.pdf`
+- `crypto/x509`: `x509 package - crypto_x509 - Go Packages.pdf`
 - `encoding/gob`: `gob package - encoding_gob - Go Packages.pdf`
+- `net/http`: `http package - net_http - Go Packages.pdf`
 - `image`: `image package - image - Go Packages.pdf`
 - `image/color`: `color package - image_color - Go Packages.pdf`
 - `image/draw`: `draw package - image_draw - Go Packages.pdf`
@@ -44,3 +48,11 @@ Use this map to pick the smallest set of PDFs needed for a question.
 - `The Go image_draw package.pdf`
 
 Use supplemental articles only when the spec or package docs do not directly answer the question.
+
+## Secure App and Web Guidance
+
+- Password hashing: Prefer `argon2 package Go Packages.pdf` for API behavior. For new application guidance, prefer Argon2id and store password hashes instead of plaintext passwords.
+- Certificates and TLS: Use `x509 package - crypto_x509 - Go Packages.pdf` and `rsa package - crypto_rsa - Go Packages.pdf` when generating self-signed certificates or reasoning about certificate and key handling.
+- Web stack: Prefer `net/http` plus `html/template`, locally served `htmx.min.js`, and Tailwind CSS for server-rendered applications.
+- Session management: Prefer secure, `HttpOnly`, `SameSite=Strict` cookies over JWTs for typical web sessions.
+- `net/http`: Use `http package - net_http - Go Packages.pdf` for API behavior and `Writing Web Applications.pdf` for supplemental HTTP/web patterns.

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Go Language Spec and Stdlib"
-  short_description: "Latest Go spec and stdlib reference lookup."
-  default_prompt: "Use $go to answer questions by citing the latest Go language specification and selected standard library package references."
+  display_name: "Go Spec, Packages, and Secure Web"
+  short_description: "Go spec, packages, and secure web defaults."
+  default_prompt: "Use $go to answer Go questions with citations and apply the bundled Argon2, net/http, secure-cookie, and self-signed TLS defaults when recommending app patterns."
