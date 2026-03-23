@@ -1,4 +1,4 @@
 interface:
   display_name: "HL7 + DICOM Standards Verifier"
-  short_description: "Verify HL7 v2.3 and DICOM standards with citations."
-  default_prompt: "Use this skill to verify requirements, fields, message structures, data elements, transfer syntax rules, and network exchange behavior against HL7 v2.3 and DICOM standards PDFs. Cite the exact document and section/page when possible."
+  short_description: "Verify HL7 v2.7 schemas, legacy ORM^O01, and DICOM with citations."
+  default_prompt: "Use this skill to verify HL7 and DICOM requirements against the bundled local artifacts. Prefer the HL7 v2.7 XSD schemas for OMG_O19 and SIU_S12 message structure, use the HL7 v2.3 implementation guide for legacy ORM^O01 and shared segment semantics, and cite the exact document, file, section, element, or page when possible."

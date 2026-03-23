@@ -6,7 +6,7 @@ This repository contains custom Codex skills. Each skill lives in its own folder
 ## Available skills
 - `ffmpeg`: Verify FFmpeg and FFprobe command-line behavior, codecs, filters, protocols, capture workflows, streaming workflows, troubleshooting steps, and hardware acceleration guidance using bundled reference PDFs. (file: `ffmpeg/SKILL.md`)
 - `go`: Verify and cite Go language rules and standard library behavior using bundled Go specification and package documentation PDFs. (file: `go/SKILL.md`)
-- `hl7dicom`: Verify and cite HL7 v2.3 and DICOM requirements using bundled standards PDFs. (file: `hl7dicom/SKILL.md`)
+- `hl7dicom`: Verify and cite HL7 and DICOM requirements using bundled standards artifacts. Prefer HL7 v2.7 XSD schemas for OMG_O19 and SIU_S12 structure checks, and use the bundled HL7 v2.3 guide for legacy ORM^O01 and shared HL7 semantics. (file: `hl7dicom/SKILL.md`)
 - `pwsh`: Create, review, debug, and explain cross-platform PowerShell scripts using bundled PowerShell references, with `pwsh` 7.5.4+ as the baseline runtime. (file: `pwsh/SKILL.md`)
 
 ## Trigger rules
